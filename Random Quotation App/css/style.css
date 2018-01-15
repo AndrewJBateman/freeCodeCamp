@@ -1,0 +1,38 @@
+body {
+  background-image: url(https://static.pexels.com/photos/33201/aurora-borealis-lofoten-norway-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+p {
+  font-family: Maven+Pro;
+  font-size: 20px;
+  font-weight: bold;
+}
+#quote-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 100px 100px;
+  position: relative;
+  margin: 5% auto auto auto;
+  width: 600px ;
+  text-align: center;
+  opacity: 0.4;
+}
+#quote-button {
+  position: absolute;
+  color: black;
+  top: 80%;
+  font-family: Maven+Pro;
+  font-weight: bold;
+  right: 5%;
+  opacity: 0.9;
+}
+#quote {
+  position: centre;
+}
+#author {
+  bottom: 80px;
+  position: absolute;
+  right: 100px;
+}
