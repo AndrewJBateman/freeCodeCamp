@@ -12,5 +12,8 @@ $(document).ready(function() {
   $("#quote-button").on("click", function() {
     getQuote();
   });
-  
-});
+    
+  $("#twitter-button").on("click", function(){
+  window.open("https://twitter.com/intent/tweet?text="+ quote + ' - ' +   author);
+ });
+  });
