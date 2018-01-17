@@ -1,0 +1,168 @@
+.navbar-default {
+  background-color:white;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+body {
+  background-image: url(https://static.pexels.com/photos/33201/aurora-borealis-lofoten-norway-night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.scrolling-content {
+  justify-content: center;
+}
+.active {
+    background-color: #ffffb3;
+}
+.title {
+  font-size: 60px;
+  font-family: Encode+Sans;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 50px;
+  -webkit-transform: translate(0%, 50%);
+  transform: translate(0%, 50%);
+}
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.about-box {
+  height:20%;
+  margin-bottom: 5%;
+}
+p.text-translucent-background {
+  /* shows text inside a translucent background */
+  font-family: Maven+Pro;
+  text-align: left;
+  margin-left: 13%;
+  margin-right: 12%;
+  font-size: 30px;
+  position: relative;
+  top: 3.8em;
+  z-index: 1;
+}
+.p-content {
+  margin-right: 10%;
+  margin-left: 10%;
+  /*margin-bottom: 80px;*/
+  padding: 7%;
+  background-color: #ffffb3;
+  opacity: 0.3;
+  z-index: -1;
+}
+.opaque {
+  background-color: #ffffb3;
+  padding-top: 2.5%;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 5%;
+}
+.section-title {
+  font-size: 50px;
+  font-family: Maven+Pro;
+  text-align: center;
+  padding: 2%;
+}
+@media screen and (max-width: 800px) { 
+  /*for better viewing on large tablets in portrait*/
+  body {
+    background-image: url("https://static.pexels.com/photos/33201/aurora-borealis-lofoten-norway-night.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 930px;
+    background-attachment: fixed;
+    background-position: center top;
+  }
+  p.text-translucent-background {
+    /* shows text inside a translucent background */
+    font-family: Encode+Sans;
+    text-align: left;
+    margin-left: 13%;
+    margin-right: 12%;
+    font-size: 30px;
+    position: relative;
+    top: 4.7em;
+    z-index: 1;
+  }
+  .p-content {
+    margin-right: 10%;
+    margin-left: 10%;
+    /*margin-bottom: 80px;*/
+    padding: 10%;
+    background-color: #ffffb3;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  .opaque {
+    background-color: #ffffb3;
+    padding-top: 2.5%;
+    padding-left: 12%;
+    padding-right: 10%;
+    padding-bottom:10%;
+  }
+  .col {
+    float: none;
+		margin-top: 2%;
+		width: 78%;
+  }
+  .project-thumbnail {
+    border: 5px solid blue;
+    padding: 0px;
+    width: 480px;
+    height: 640px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .col {
+    float:left;
+    margin:2%;
+    width: 46%;
+  }
+}
+.project-thumbnail {
+  border: 5px solid blue;
+  padding: 0px;
+  width: 360px;
+  height: 480px;
+}
+#quote-machine {
+  -webkit-transform: translate(0%, -9%);
+  transform: translate(0%, -9%);
+}
+.project-thumbnail:hover {
+  /* Add a hover effect (grey shadow) */
+    box-shadow: 0 0 2px 1px grey;
+}
+.p-content2 {
+  background-color: #ffffb3;
+  padding-top: 60px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding-left: %;
+  padding-right: %;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: green;
+}
+.fa-github {
+  color: black;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-linkedin {
+  color: #0077B5;
+}
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
