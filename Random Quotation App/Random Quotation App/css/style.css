@@ -1,0 +1,53 @@
+body {
+  background: url(https://w-dog.net/wallpapers/9/13/452498554612891/norway-lofoten-winter-night-northern-lights.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.quote-box {
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 50px 50px 50px 50px;
+  position: center;
+  margin: 5% auto auto auto;
+  width: 600px;
+  opacity: 0.5;
+}
+#quote {
+  position: center;
+}
+#author {
+  bottom: 10px;
+  position: relative;
+  right: 2px;
+}
+p {
+  font-family: Maven+Pro;
+  font-size: 16px;
+  font-weight: bold;
+  }
+.button {
+    width: 100%;
+    text-align: center;
+    margin: 20px 3px;
+    padding: 15px 15px;
+}
+.buttons button {
+    display: inline-block;
+}
+.quote-button {
+    position: relative;
+    float: right;
+    top: 85%;
+    right: 30%;
+}
+.twitter-button {
+    position: relative;
+    float: left;
+    top: 85%;
+    left: 30%;
+    background-color: #1DA1F2;
+    color: white;
+}
+
