@@ -11,8 +11,9 @@ body {
   padding: 50px 50px 50px 50px;
   position: center;
   margin: 5% auto auto auto;
-  width: 600px;
-  opacity: 0.5;
+  width: auto; /*so text wraps around*/
+  max-width: 500px;
+  opacity: 0.4;
 }
 #quote {
   position: center;
@@ -27,26 +28,27 @@ p {
   font-size: 16px;
   font-weight: bold;
   }
+.btn-group {
+  text-align: center;
+  align-content: center;
+  display: block;
+  padding: 20px;
+}
 .button {
     width: 100%;
     text-align: center;
-    margin: 20px 3px;
-    padding: 15px 15px;
-}
-.buttons button {
-    display: inline-block;
+    margin: 12px;
+    padding: 20px 20px;
 }
 .quote-button {
-    position: relative;
-    float: right;
-    top: 85%;
-    right: 30%;
+    /*top: 85%;
+    right: 20%;*/
+  font-weight: bold;
+  opacity: 0.6;
 }
 .twitter-button {
-    position: relative;
-    float: left;
-    top: 85%;
-    left: 30%;
+    /*top: 85%;
+    left: 20%;*/
     background-color: #1DA1F2;
     color: white;
 }
