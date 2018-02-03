@@ -1,0 +1,26 @@
+body {
+  font-family: 'Encode Sans Condensed', sans serif;
+  font-size: 20px;
+  background: url(https://w-dog.net/wallpapers/9/13/452498554612891/norway-lofoten-winter-night-northern-lights.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.search-box {
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 50px 50px 50px 50px;
+  position: center;
+  margin: 5% auto auto auto;
+  width: auto; /*so text wraps around*/
+  max-width: 1000px;
+  opacity: 0.8;
+}
+h1{
+  font-weight: bold;
+  font-size: 50px;
+  }
+li {
+  font-size: 20px;
+}
