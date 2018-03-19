@@ -1,0 +1,100 @@
+body{
+  color: GhostWhite;
+  color: blue; 
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Encode Sans Condensed', sans serif;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  background-repeat: repeat;
+  
+}
+#header{
+  background: rgba(0,0,0,.4);
+  border: 2px blue solid;
+  border-radius: 25px;
+}
+
+img{
+  width: 75px;
+  height: 75px;
+  border: 2px blue solid;
+  border-radius: 50%;
+}
+
+.col-md-3{
+  padding: 10px;
+}
+h1, h2, h3{
+  color: blue; 
+  font-weight: bold;
+}
+h3:hover{
+  color: Maroon;
+}
+.row{
+  background: rgba(0,0,0,.1);
+  border: 2px blue solid;
+  border-radius: 25px;
+  margin: 10px;
+}
+.row > div > div > input
+{
+  background-color: transparent!important;
+  border-radius:30px;
+}
+.row > div > div > input + span > button
+{
+  background-color: white!important;
+  border-radius:30px;
+  color:#5d5955!important;
+}
+/*.offline {
+	background: #6200ea;
+}
+
+.online {
+	background: #b388ff;
+}*/
+a {
+    color: #002db3; /*dark blue*/
+    background-color: transparent;
+    /*text-decoration: underline;*/
+    font-size: 23px;
+    /*font-weight: bold;*/
+}
+a:hover{
+  color: orange;
+}
+a:visited {
+	color: #FFDADF;
+	text-decoration: none;
+}
+form {
+  font-size:22px;
+  text-align: center;
+  color: #002db3; /*dark blue*/
+  /*font-weight: bold;*/
+  background-color:rgba(0,0,0,.2);
+  border: 2px blue solid;
+  border-radius:25px;
+  width:400px;
+  margin:10px auto;
+}
+form.search-form button {
+    float: absolute;
+    width: 15%;
+    padding: 6px 3px 3px 3px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    /*border-left: 1px;*/
+    cursor: pointer;
+}
+
+form.search-form button:hover {
+    background: #0b7dda;
+}

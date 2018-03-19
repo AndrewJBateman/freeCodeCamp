@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch TV Final</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+  <div class = "container-fluid">
+    <div id="header" class="text-center">
+      <h1>TwitchTV</h1>
+      <a href="https://www.twitch.tv/freecodecamp" target="_blank">
+        <h3 id="freeCodeCampStatus"></h3>
+      </a>
+    </div>
+    
+    <form><!-- Form to select on/off-line or all users -->
+      <label class="radio-inline">
+        <input type="radio" name="channel" id="all" checked="checked">All
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="channel" id="displayOnline">Online
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="channel" id="displayOffline">Offline
+      </label>
+    </form>
+    
+    <form class="search-form"><!-- search form -->
+      <div class="search-box">
+        <input id="userSearch" class="search-input" type="userSearch" placeholder="Search users..."/>
+        <button id="submit" type="submit"><i class="fa fa-search"><span></span></i></button>
+      </div>
+    </form>
+     
+    <div id=userInfo>
+      <div class="online"></div>
+      <div class="offline"></div>
+      <div class="noaccount"></div>
+      <div class="searchResultError"></div>
+      <div class="searchResultOffline"></div>
+      <div class="searchResultOnline"></div>
+    </div><!-- end userInfo div -->
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
