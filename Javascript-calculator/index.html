@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC JS Calculator FInal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Encode+Sans|Maven+Pro'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div id="calculator">
+  <h2>FCC JS Calculator</h2>
+  <!--form method chosen as it reduces the javascript coding required and much more efficient. Only 4 functions are required in JS to display inputted string, clear last entry, calculate percentage and output calculation results. -->
+  <form>
+    <input type="text" id="calcDisplay" disabled><!--disabled so user cannot enter text directly in display area-->
+    <br>
+    <input type="button" class="btn btn-primary" value="AC" onclick='addToDisplay("AC")'>
+    <input type="button" class="btn btn-primary" value="CE" onClick='clearEntry()'>
+    <input type="button" class="btn btn-info" value="%" onclick='perCent()'>
+    <input type="button" class="btn btn-info" value="/" onclick='addToDisplay("/")'>
+    <br>
+    <input type="button" class="btn btn-info" value="7" onclick='addToDisplay("7")'>
+    <input type="button" class="btn btn-info" value="8" onclick='addToDisplay("8")'>
+    <input type="button" class="btn btn-info" value="9" onclick='addToDisplay("9")'>
+    <input type="button" class="btn btn-info" value="*" onclick='addToDisplay("*")'>
+    <br>
+    <input type="button" class="btn btn-info" value="4" onclick='addToDisplay("4")'>
+    <input type="button" class="btn btn-info" value="5" onclick='addToDisplay("5")'>
+    <input type="button" class="btn btn-info" value="6" onclick='addToDisplay("6")'>
+    <input type="button" class="btn btn-info" value="-" onclick='addToDisplay("-")'>
+    <br>
+    <input type="button" class="btn btn-info" value="1" onclick='addToDisplay("1")'>
+    <input type="button" class="btn btn-info" value="2" onclick='addToDisplay("2")'>
+    <input type="button" class="btn btn-info" value="3" onclick='addToDisplay("3")'>
+    <input type="button" class="btn btn-info" value="+" onclick='addToDisplay("+")'>
+    <br>
+    <input type="button" class="btn btn-info" value="0" onclick='addToDisplay("0")'>
+    <input type="button" class="btn btn-info" value="." onclick='addToDisplay(".")'>
+    <input type="button" class="btn btn-primary wideButton" value="=" onclick='output()'>
+    <br>
+    </form> 
+</div><!-- end div calculator container -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
