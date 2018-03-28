@@ -1,0 +1,107 @@
+body{
+  background: url(https://previews.123rf.com/images/arisanjaya/arisanjaya1104/arisanjaya110400321/9249215-old-fashioned-clock.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2{
+  
+}
+#container{
+  border:5px solid grey;
+  border-radius :20px;
+  width:400px;
+  height: 550px;
+  margin:20px auto;
+  padding:20px;
+  text-align:center;
+  background : pink;
+  position: relative;
+  top: 100px;
+  
+}
+#pomodoroTimer{
+  color: grey;
+  font-size: 80px;
+  margin: 10px auto;
+  border: 5px solid grey;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:default;
+}
+#time{
+  margin-top:60px;
+  z-index : 1;
+  position:relative;
+}
+#filler{
+  background : #55f207;
+  height: 0px;
+  width: 300px;
+  position:absolute;
+  bottom:0;
+}
+#workDisplay{
+  background-color: white;
+  width: 84px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+#breakDisplay{
+  background-color: white;
+  width: 84px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn{
+  height: 40px;
+  width: 40px;
+  margin: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px grey;
+}
+.wideButton{
+  height: 40px;
+  width: 84px;
+  font-size: 14px;
+  text-position: center;
+  margin-top: 10px;
+  margin-right: 1px;
+  margin-left: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px grey;
+}
+#buttonHeaders{
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
