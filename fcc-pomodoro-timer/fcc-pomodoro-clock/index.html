@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Encode+Sans|Maven+Pro'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id = "container">
+  <h1>Pomodoro Clock</h1>
+  <div id="pomodoroTimer">
+    <div id="time">
+     <span id="counter"></span>
+    </div><!--end time div--> 
+  </div><!--end Pomodoro timer div-->
+  
+  <div clas="btn group">
+    <button type="button" id="start_button" class="btn btn-success wideButton">Start work</button>
+    <button type="button" id="break_button" class="btn btn-warning wideButton">Start break</button>
+    <button type="button" id="pause_button" class="btn btn-warning wideButton">Pause</button>
+    <button type="button" id="reset_button" class="btn btn-warning wideButton">Reset</button>
+    <button type="button" id="resume_button" class="btn btn-success wideButton">Resume</button>
+  </div><!--end btn group div-->
+  <br>
+  <div class = "workbreakTimeAdjust"><!--end btn group div-->
+    <div class = "row">
+      <div class = "col-sm-6 length-heading">
+        <h2 class = workTime>Work Time</h2>
+        <h2 id = workDisplay></h2>
+        <button type="button" id="decrWork" class="btn btn-info">-</button>
+        <button type="button" id="incrWork" class="btn btn-info">+</button> 
+      </div>
+      <div class = "col-sm-6 length-heading">
+        <h2 class = workTime>Break Time</h2>
+        <h2 id = breakDisplay></h2>
+        <button type="button" id="decrBreak" class="btn btn-info">-</button>
+        <button type="button" id="incrBreak" class="btn btn-info">+</button>
+      </div>
+    </div><!--end "row" class div-->
+    <br>   
+  </div><!--end work and break adjust div-->
+</div><!--end container div-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
