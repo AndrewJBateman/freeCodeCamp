@@ -1,0 +1,34 @@
+body{
+  background: pink;
+}
+.keypad{
+  text-align: center;
+}
+h1{
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+}
+h2{
+  font-size: 25px;
+  color: blue;
+  text-align: center;
+}
+.row1, .row2, .row3, {
+  margin: 2px;
+}
+.btn{
+  height: 80px;
+  width: 80px;
+  margin: 2px 0px 2px 0;
+  font-size: 40px;
+}
+#reset{
+  display: block;
+  margin: 2px auto;
+  font-size: 25px;
+  padding: 2px;
+  height: 45px;
+  width: 80px;
+}
+
