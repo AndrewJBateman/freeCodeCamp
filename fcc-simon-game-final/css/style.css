@@ -1,0 +1,122 @@
+body{
+  background-color: pink;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+#gameBoard{
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 590px;
+  height: 590px;
+  border: solid 5px grey;
+  border-radius: 590px;
+}
+.simon-btn{
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  z-index: 8;
+  border: solid 5px grey;
+  cursor: pointer;
+}
+.disabled{
+  pointer-events: none
+}
+
+#green{
+  background: green;
+  border-radius: 300px 0 0 0;
+}
+#red{
+  background: red;
+  border-radius: 0 300px 0 0;
+}
+#yellow{
+  background: yellow;
+  border-radius: 0 0 0 300px;
+}
+#blue{
+  background: blue;
+  border-radius: 0 0 300px 0;
+}
+#controlPanel{
+  width: 245px;
+  height: 245px;
+  margin-left: 166px;
+  margin-top: 166px;
+  background-color: white;
+  border: solid 10px grey;
+  border-radius: 150px;
+  position: absolute;
+  z-index: 10;
+  /*text-align: center;*/
+}
+.title{
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.inline{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  }
+.display{
+  margin-right: 10px;
+  text-align: center;
+  width: 55px;
+  height: 45px;
+  border: solid 1px grey;
+  color: black;
+  font-weight: bold;
+  background-color: lightgrey;
+  font-size: 30px;
+  line-height: 38px;
+  margin-top: -15px;
+}
+.start-btn, .strict-btn{
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 5px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  border: solid 2px grey;
+  border-radius: 30px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-top: -15px;
+  cursor: pointer;
+}
+.start-btn{
+  background-color: red;
+}
+.strict-btn{
+  background-color: yellow;
+}
+.strict-selected{
+  animation: strict-pulse 1s infinite;
+}
+@keyframes strict-pulse {
+  0% {
+    background-color: yellow;/*light yellow*/
+  }
+  100% {
+    background-color: orange;
+  }
+}
+.on, .off{
+  border: solid 2px grey;
+  color: black;
+  font-weight: bold;
+}
+
+
