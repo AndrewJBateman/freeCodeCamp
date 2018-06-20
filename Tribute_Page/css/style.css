@@ -1,4 +1,49 @@
 body {
   margin-top: 0px;
-  
+  background-color: pink;
+  border: 50px solid white;
 }
+#img-div, #image {
+  display: block;
+  margin: auto;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  align: center;
+  display: block;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+ }
+.smaller-text {
+    font-size: 16px;
+    font-color: dark-grey;
+ }
+div {
+   display: block;
+ }
+ #title {
+    padding-top: 1cm;
+    font-size:  70px;
+    text-align: center;
+ } 
+ h2 {
+    font-size:  23px;
+    text-align: center;
+ }
+ h3 {
+    font-size:  22px;
+    text-align: center;
+ }
+ p {
+    font-size: 18px;
+    font-family: Monospace;
+    text-align: center;
+ }
+ ul {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: left;
+ }
