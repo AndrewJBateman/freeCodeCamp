@@ -1,0 +1,129 @@
+#container {
+  margin:auto;
+  font-family: Arial, sans-serif;
+  font-size:20px;
+  color:#2F4F4F; /*slate grey*/
+}
+@media (max-width:600px) {
+  #container{
+    idth:550px;
+    background-color: orange;
+  }
+}
+
+@media (min-width:600px) {
+  #container{
+    width:550px;
+    background-color: lightgreen;
+  }
+} 
+@media (min-width:992px) {
+  #container {
+    width:940px;
+    background-color: powderblue;
+  }
+}
+header {
+  background-color:pink;
+  display:grid;
+  grid-template-columns:3fr 1fr;
+  margin:0;
+}
+#title {
+  color:white;
+  font-weight:400;
+  letter-spacing:2px;
+  justify-self:start;
+  align-self:start;
+  margin-bottom:0;
+}
+#description {
+  font-size:20px;
+  color: slategrey;
+  grid-row:2;
+  justify-self:start;
+  align-self:start;
+  letter-spacing:2px;
+  margin-top:5px;
+  text-align:left;
+}
+#survey-form {
+  padding:20px;
+  border:2px solid blue;
+}
+
+@media (min-width:600px) {
+  #survey-form {
+  padding:30px;
+  }
+}
+@media (min-width:992px) {
+  #survey-form {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-row-gap:20px;
+  }
+}
+fieldset {
+  border:0;
+  display:grid;
+}
+legend {
+  font-weight:600;
+}
+label>b {
+  color:red;
+}
+
+input::placeholder {
+  font-size:23px
+}
+#name,#email,#number {
+  height:23px;
+  font-size:20px;
+  width:100%;
+}
+#name-label,#email-label,#number-label {
+  margin-bottom:15px;
+}
+#dropdown {
+  height:25px;
+  font-size:20px;
+}
+#comment-area {
+  grid-column:1/-1;
+}
+#comment-area>label {
+  font-style:italic;
+}
+#comments {
+  width:100%;
+  font-size:20px;
+}
+#submit {
+  border-radius:10px;
+  justify-self:center;
+  grid-column:1/-1;
+  font-size:20px;
+  background-color:pink;
+  color:blue;
+  padding:5px;
+}
+#reset {
+  border-radius:10px;
+  justify-self:center;
+  grid-column:1/-1;
+  font-size:20px;
+  background-color:pink;
+  color:red;
+  padding:5px;
+}
+textarea::placeholder {
+  font-size:20px;
+}
+
+
+
+
+
+
