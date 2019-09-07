@@ -23,16 +23,16 @@ const denoms = [
 //function to calculate change and total cash in drawer
 function checkCashRegister(price, cash, cid) {
   //change due is cash given minus price
-  var change = 0.00;
+  let change = 0.00;
   change = (cash - price).toFixed(2);
-  var totalCiD = 0.0; //create variable for total cash in drawer & initialise to zero
-  for (var i=0; i<cid.length; i++){ //use for loop to sum total cash in drawer
+  let totalCiD = 0.0; //create variable for total cash in drawer & initialise to zero
+  for (let i=0; i<cid.length; i++){ //use for loop to sum total cash in drawer
       totalCiD = totalCiD + cid[i][1]; // add value in each denomination to get total
   } //end for loop
   //totalCiD.toFixed(2);   
   //console.log(totalCiD);
 
-  if (totalCiD < change) { //if else statements as per design requriements
+  if (totalCiD < change) { //if else statements as per design requirements
     return "Insufficient Funds";
   } else if (totalCiD == change) {
     return "Closed";
@@ -62,5 +62,5 @@ function checkCashRegister(price, cash, cid) {
   
 } //end main function
 
-var result = checkCashRegister(19.50, 20.00, [["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 1.00], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);
+var result = checkCashRegister(19.50, 20.00, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.10], ["QUARTER", 4.25], ["ONE", 90.00], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
 console.log(result);
