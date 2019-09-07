@@ -15,13 +15,11 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 7. [Inspiration](#inspiration)
 8. [Contact](#contact)
 
-## List of Projects
+## List of Projects with Screenshot
 
 * Adv_Algorithm_Exact_Change
 
-## Screenshots
-
-![Example screenshot](./nav.png).
+![project_screenshot](./img/Algorithm_Exact_Change.png)
 
 ## Technologies
 
@@ -29,7 +27,7 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ## Setup
 
-* cd into individual folders to view html & js/index.js files. Open html file in chrome dev tools and use console to enter function variables.
+* cd into individual folders to view html & js/index.js files. Open html file in chrome dev tools and use dev console to enter function variables.
 
 ## Status & To-Do List
 
