@@ -21,6 +21,10 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ![project_screenshot](./img/Algorithm_Exact_Change.png)
 
+* Adv_Algorithm_Validate_Phone_Number
+
+![project_screenshot](./img/Algorithm_Validate_Phone_Number.png)
+
 ## Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
@@ -37,8 +41,10 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ## Inspiration
 
-* [Stephen Mayeux, Full Stack Developer Youtube series](https://github.com/stephenmayeux)
+* [Stephen Mayeux, Full Stack Developer Youtube Series](https://github.com/stephenmayeux)
 * [Dylan Israel, Youtube Series](http://www.codingtutorials360.com/)
+* [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
+* [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
 
 ## Contact
 
