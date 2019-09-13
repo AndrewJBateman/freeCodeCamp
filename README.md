@@ -25,6 +25,10 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ![project_screenshot](./img/Algorithm_Validate_Phone_Number.png)
 
+* Adv_Algorithm_Caesars_Cipher
+
+![project_screenshot](./img/Algorithm_Caesars_Cipher.png)
+
 ## Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
@@ -45,6 +49,7 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 * [Dylan Israel, Youtube Series](http://www.codingtutorials360.com/)
 * [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
 * [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
 
 ## Contact
 
