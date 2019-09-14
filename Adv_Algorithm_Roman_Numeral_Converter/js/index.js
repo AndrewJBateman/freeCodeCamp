@@ -11,9 +11,9 @@ var romanNumerals = [
   ["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"],        // Hundreds
   ["","M","MM","MMM"]]; //Thousands
  
- //convert number to string, separate each digiti and reverse the order
+ //convert number to string, separate each digit and reverse the order
  var digits = num.toString().split('').reverse(); 
- //console.log(digits); //36 becomes ["6", "3"]
+ // console.log(digits); //36 becomes ["6", "3"]
  var numerals = ""; //create new variable as empty string
  
   //loop from last to first decimal digit, changing the order back to largest to smallest,
