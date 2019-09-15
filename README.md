@@ -33,6 +33,10 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ![project_screenshot](./img/Algorithm_Roman_Numeral_Converter.png)
 
+* Adv_Algorithm_Palindrome_Checker
+
+![project_screenshot](./img/Algorithm_Roman_Numeral_Converter.png)
+
 ## Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
@@ -54,6 +58,7 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 * [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
 * [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
 * [FreeCodeCamp](https://www.freecodecamp.org/)
+* [Regex Expression Tester](https://regexr.com/)
 
 ## Contact
 
