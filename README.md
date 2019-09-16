@@ -37,6 +37,10 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ![project_screenshot](./img/Algorithm_Roman_Numeral_Converter.png)
 
+* Intermediate_Algorithm_Sum_All_Numbers_in_a_Range
+
+![project_screenshot](./img/Algo_Sum_All_Numbers.png)
+
 ## Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
