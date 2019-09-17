@@ -1,6 +1,10 @@
 # Javascript Front End Certification
 
-Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
+* Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
+
+* Array methods used: filter, concat, includes, Math.min, Math.max, reverse, shift
+
+* String methods used: replace
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -14,6 +18,29 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 6. [Status & To-Do List](#status)
 7. [Inspiration](#inspiration)
 8. [Contact](#contact)
+
+## Technologies
+
+[Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+
+## Setup
+
+* cd into individual folders to view html & js/index.js files. Open html file in chrome dev tools and use dev console to enter function variables.
+
+## Status & To-Do List
+
+* Status: All projects listed under 'List of Projects' have been checked and are working.
+
+* To-Do: Complete documentation of all projects. Change folder titles to remove spaces.
+
+## Inspiration
+
+* [Stephen Mayeux, Full Stack Developer Youtube Series](https://github.com/stephenmayeux)
+* [Dylan Israel, Youtube Series](http://www.codingtutorials360.com/)
+* [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
+* [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+* [Regex Expression Tester](https://regexr.com/)
 
 ## List of Projects with Screenshot
 
@@ -41,28 +68,9 @@ Contains my code created to meet challenges in the JavaScript Full Stack Web Dev
 
 ![project_screenshot](./img/Algo_Sum_All_Numbers.png)
 
-## Technologies
+* Intermediate_Algorithm_Diff_Two_Arrays
 
-[Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
-
-## Setup
-
-* cd into individual folders to view html & js/index.js files. Open html file in chrome dev tools and use dev console to enter function variables.
-
-## Status & To-Do List
-
-* Status: All projects listed under 'List of Projects' have been checked and are working.
-
-* To-Do: Complete documentation of all projects. Change folder titles to remove spaces.
-
-## Inspiration
-
-* [Stephen Mayeux, Full Stack Developer Youtube Series](https://github.com/stephenmayeux)
-* [Dylan Israel, Youtube Series](http://www.codingtutorials360.com/)
-* [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
-* [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
-* [FreeCodeCamp](https://www.freecodecamp.org/)
-* [Regex Expression Tester](https://regexr.com/)
+![project_screenshot](./img/Algo_Diff_Two_Arrays)
 
 ## Contact
 
