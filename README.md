@@ -70,7 +70,11 @@
 
 * Intermediate_Algorithm_Diff_Two_Arrays
 
-![project_screenshot](./img/Algo_Diff_Two_Arrays)
+![project_screenshot](./img/Algo_Diff_Two_Arrays.png)
+
+* Intermediate_Algorithm_Search_And_Replace
+
+![project_screenshot](./img/Algo_Search_And_Replace.png)
 
 ## Contact
 
