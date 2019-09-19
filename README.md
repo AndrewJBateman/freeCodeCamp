@@ -76,6 +76,10 @@
 
 ![project_screenshot](./img/Algo_Search_And_Replace.png)
 
+* Intermediate_Algorithm_Sum_Odd_Fabonicci
+
+![project_screenshot](./img/Algo_Sum_Odd_Fabonicci.png)
+
 ## Contact
 
 Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
