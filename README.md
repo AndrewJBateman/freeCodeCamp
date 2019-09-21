@@ -80,6 +80,10 @@
 
 ![project_screenshot](./img/Algo_Sum_Odd_Fabonicci.png)
 
+* Intermediate_Algorithm_Map_The_Debris
+
+![project_screenshot](./img/Algo_Map_The_Debris.png)
+
 ## Contact
 
 Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
