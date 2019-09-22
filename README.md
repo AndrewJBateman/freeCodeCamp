@@ -84,6 +84,10 @@
 
 ![project_screenshot](./img/Algo_Map_The_Debris.png)
 
+* Intermediate_Algorithm_Binary_Agents
+
+![project_screenshot](./img/Algo_Binary_Agents.png)
+
 ## Contact
 
 Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
