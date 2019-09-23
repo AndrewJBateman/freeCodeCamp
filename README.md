@@ -88,6 +88,10 @@
 
 ![project_screenshot](./img/Algo_Binary_Agents.png)
 
+* Intermediate_Algorithm_Sum_All_Primes
+
+![project_screenshot](./img/Algo_Sum_All_Primes.png)
+
 ## Contact
 
 Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
