@@ -2,7 +2,7 @@
 
 * Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
 
-* Array methods used: filter, concat, includes, Math.min, Math.max, reverse, shift
+* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reverse, shift
 
 * String methods used: replace
 
@@ -91,6 +91,10 @@
 * Intermediate_Algorithm_Sum_All_Primes
 
 ![project_screenshot](./img/Algo_Sum_All_Primes.png)
+
+* Intermediate_Algorithm_Steamroller
+
+![project_screenshot](./img/Algo_Steamroller.png)
 
 ## Contact
 
