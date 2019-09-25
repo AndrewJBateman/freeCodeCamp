@@ -4,7 +4,7 @@
 
 * Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reverse, shift
 
-* String methods used: replace
+* String methods used: regex, replace, toLowerCase,
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -95,6 +95,10 @@
 * Intermediate_Algorithm_Steamroller
 
 ![project_screenshot](./img/Algo_Steamroller.png)
+
+* Intermediate_Algorithm_Spinal_Tap
+
+![project_screenshot](./img/Algo_Spinal_Tap.png)
 
 ## Contact
 
