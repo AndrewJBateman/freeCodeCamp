@@ -2,7 +2,7 @@
 
 * Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
 
-* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reverse, shift
+* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reduce, reverse, shift
 
 * String methods used: regex, replace, toLowerCase,
 

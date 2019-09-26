@@ -1,4 +1,5 @@
-/*Given an array arr, find element pairs whose sum equal the second argument arg and return the sum of their indices.
+/*This was removed from the new freecodecamp list of algorithms
+Given an array arr, find element pairs whose sum equal the second argument arg and return the sum of their indices.
 If multiple pairs are possible that have the same numeric elements but different indices, return the smallest sum of indices. Once an element has been used, it cannot be reused to pair with another.
 For example pairwise([7, 9, 11, 13, 15], 20) returns 6. The pairs that sum to 20 are [7, 13] and [9, 11]. We can then write out the array with their indices and values.
 Index	0	1	2	3	4
@@ -10,10 +11,10 @@ Below we'll take their corresponding indices and add them.
 3 + 3 = 6 → Return 6
 */
 
-function pairwise(arr, arg) {
+const pairwise = (arr, arg) => {
   //use reduce function on the array arr to apply a callback function
   return arr.reduce(function(acc, num, index, arr){
-    var i = 0; //initialise var I
+    let i = 0; //initialise var I
     //use for loop to start from index+1 as we are comparing with index
     for (i = index+1; i < arr.length; i++){
       if (arr[index] + arr[i] === arg){
@@ -29,13 +30,14 @@ function pairwise(arr, arg) {
 }
 //var result = pairwise([1,4,2,3,0,5], 7);
 //console.log(result); //return 11 as 4(1)+3(3) = 4, 2(2)+5(5)=7.Sum 11
-var result = pairwise([1, 4, 2, 3, 0, 5], 7);
-console.log(result); //returns 11 as 4(1)+3(3) = 4, 2(2)+5(5)=7.Sum 11
-var result = pairwise([1, 3, 2, 4], 4);
-console.log(result); //returns 1 as 1(0)+3(1) = 1.
-var result = pairwise([1, 1, 1], 2);
-console.log(result); //returns 1 as 1(0)+1(1) = 1.
-var result = pairwise([0, 0, 0, 0, 1, 1], 1);
-console.log(result); //returns 10 as 0(0)+1(4) and 1(1)+1(5) = 10.
-var result = pairwise([0, 0, 0, 0, 1, 1], 1);
-console.log(result); //returns 10 as 0(0)+1(4) and 1(1)+1(5) = 10.
+let result 
+result = pairwise([1, 4, 2, 3, 0, 5], 7);
+console.log('pairwise([1, 4, 2, 3, 0, 5], 7) returns: ', result); //returns 11 as 4(1)+3(3) = 4, 2(2)+5(5)=7.Sum 11
+result = pairwise([1, 3, 2, 4], 4);
+console.log('pairwise([1, 3, 2, 4], 4) returns: ', result); //returns 1 as 1(0)+3(1) = 1.
+result = pairwise([1, 1, 1], 2);
+console.log('pairwise([1, 1, 1], 2) returns: ', result); //returns 1 as 1(0)+1(1) = 1.
+result = pairwise([0, 0, 0, 0, 1, 1], 1);
+console.log('pairwise([0, 0, 0, 0, 1, 1], 1) returns: ', result); //returns 10 as 0(0)+1(4) and 1(1)+1(5) = 10.
+result = pairwise([0, 0, 0, 0, 1, 1], 1);
+console.log('pairwise([0, 0, 0, 0, 1, 1], 1) returns: ', result); //returns 10 as 0(0)+1(4) and 1(1)+1(5) = 10.
