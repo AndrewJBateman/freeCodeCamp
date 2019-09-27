@@ -1,4 +1,5 @@
-/*You are given a JSON object representing a part of your musical album collection. 
+/* This was removed from the new freecodecamp list of algorithms
+You are given a JSON object representing a part of your musical album collection. 
 Each album has several properties and a unique id number as its key. 
 Not all albums have complete information.
 
@@ -19,7 +20,7 @@ If prop is "tracks" and value isn't empty (""), push the value onto the end of t
 If value is empty (""), delete the given prop property from the album.*/
 
 // Setup. This is a variable array that will be used to test the function below. 
-var collection = {
+const collection = {
     "2548": {
       "album": "Slippery When Wet",
       "artist": "Bon Jovi",
@@ -45,10 +46,10 @@ var collection = {
     }
 };
 // Keep a copy of the collection for tests
-var collectionCopy = JSON.parse(JSON.stringify(collection));
+const collectionCopy = JSON.parse(JSON.stringify(collection));
 
 //function to update records. If no value in a property then delete that property.         
-function updateRecords(id, prop, value) {
+const updateRecords = (id, prop, value)  => {
   if (!value){
     delete collection[id][prop]; //collection -id ref. -property(album, artist or tracks). 
     return collection;
@@ -69,5 +70,6 @@ function updateRecords(id, prop, value) {
 }
 
 // Alter values below to test your code
-var output = updateRecords(2468, "tracks", "Free");
-console.log(output);
+let output
+output = updateRecords(2468, "tracks", "Free");
+console.log('updateRecords(2468, "tracks", "Free") returns: ', output);

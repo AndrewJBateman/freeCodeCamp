@@ -6,6 +6,21 @@
 
 * String methods used: regex, replace, toLowerCase,
 
+* JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
+
+* JSON.parse() method used, parses a JSON string, constructing the object described in the string.
+
+* Object methods: hasOwnProperty()
+
+eg var json = '{"result":true, "count":42}';
+obj = JSON.parse(json);
+
+console.log(obj.count);
+// expected output: 42
+
+console.log(obj.result);
+// expected output: true
+
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## Table of contents
@@ -99,6 +114,14 @@
 * Intermediate_Algorithm_Spinal_Tap
 
 ![project_screenshot](./img/Algo_Spinal_Tap.png)
+
+* Adv_Algorithm_Pairwise
+
+![project_screenshot](./img/Algo_Pairwise.png)
+
+* Adv_Algorithm_Record_Collection
+
+![project_screenshot](./img/Algo_Record_Collection.png)
 
 ## Contact
 
