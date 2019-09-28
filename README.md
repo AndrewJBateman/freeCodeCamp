@@ -2,7 +2,7 @@
 
 * Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
 
-* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reduce, reverse, shift
+* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reduce, reverse, shift, slice (returns the part of the array specified, does not change original array), sort, splice (returns removed items in an array, changing the original array)
 
 * String methods used: regex, replace, toLowerCase,
 
@@ -122,6 +122,10 @@ console.log(obj.result);
 * Adv_Algorithm_Record_Collection
 
 ![project_screenshot](./img/Algo_Record_Collection.png)
+
+* Adv_Algorithm_Inventory_Update
+
+![project_screenshot](./img/Algo_Inventory_Update.png)
 
 ## Contact
 
