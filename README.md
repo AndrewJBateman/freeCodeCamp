@@ -1,10 +1,27 @@
 # Javascript Front End Certification
 
-* Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp.
+* Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp. Help from Youtube videos and other info sources is acknowledged in the 'Inspiration' section below.
 
-* Array methods used: concat, filter, flatten, includes, Math.max, Math.min, reduce, reverse, shift, slice (returns the part of the array specified, does not change original array), sort, splice (returns removed items in an array, changing the original array)
+* Array methods used:
+call - calls a function with a given this value and arguments provided individually
+concat,
+filter,
+flatten,
+forEach - executes a provided function once for each value in the Set object, in insertion order,
+includes,
+Math.max,
+Math.min,
+reduce - executes a reducer function on each element of an array,
+reverse,
+shift,
+slice - returns the part of the array specified, does not change original array,
+sort,
+splice - returns removed items in an array, changing the original array
 
-* String methods used: regex, replace, toLowerCase,
+* String methods used:
+regex,
+replace,
+toLowerCase, toUpperCase
 
 * JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
 
@@ -126,6 +143,10 @@ console.log(obj.result);
 * Adv_Algorithm_Inventory_Update
 
 ![project_screenshot](./img/Algo_Inventory_Update.png)
+
+* Adv_Algorithm_Symmetric_Difference
+
+![project_screenshot](./img/Algo_Symmetric_Difference.png)
 
 ## Contact
 
