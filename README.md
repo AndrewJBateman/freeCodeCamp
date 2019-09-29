@@ -4,30 +4,49 @@
 
 * Array methods used:
 call - calls a function with a given this value and arguments provided individually
+
 concat,
+
 filter,
+
 flatten,
+
 forEach - executes a provided function once for each value in the Set object, in insertion order,
+
 includes,
+
 Math.max,
+
 Math.min,
+
 reduce - executes a reducer function on each element of an array,
+
 reverse,
+
 shift,
+
 slice - returns the part of the array specified, does not change original array,
+
 sort,
+
 splice - returns removed items in an array, changing the original array
 
 * String methods used:
 regex,
+
 replace,
+
 toLowerCase, toUpperCase
 
 * JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
 
 * JSON.parse() method used, parses a JSON string, constructing the object described in the string.
 
-* Object methods: hasOwnProperty()
+* Object methods:
+
+hasOwnProperty()
+
+Object.keys() - returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. Note: enumerable can be set to false - default is true.
 
 eg var json = '{"result":true, "count":42}';
 obj = JSON.parse(json);
@@ -72,6 +91,7 @@ console.log(obj.result);
 * [Mark Snow, Youtube Series](https://www.youtube.com/user/SnowmanSpeaks)
 * [MDN Web Docs RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
 * [FreeCodeCamp](https://www.freecodecamp.org/)
+* [FreeCodeCamp Forum](https://www.freecodecamp.org/forum/)
 * [Regex Expression Tester](https://regexr.com/)
 
 ## List of Projects with Screenshot
@@ -147,6 +167,10 @@ console.log(obj.result);
 * Adv_Algorithm_Symmetric_Difference
 
 ![project_screenshot](./img/Algo_Symmetric_Difference.png)
+
+* Adv_Algorithm_Make_A_Person
+
+![project_screenshot](./img/Algo_Symmetric_Make_A_Person.png)
 
 ## Contact
 

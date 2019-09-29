@@ -10,13 +10,13 @@ The methods that take an argument must accept only one argument and it has to be
 These methods must be the only available means of interacting with the object.*/
 
 //Solution - function expression stored as a variable
-var Person = function(firstAndLast){
+var Person = function(firstAndLast) {
     
     //private variables first and last obtained using string split method
     //applied to array
-    var first = firstAndLast.split(' ')[0]; //' 'splits words
+    let first = firstAndLast.split(' ')[0]; //' 'splits words
     console.log(first);
-    var last = firstAndLast.split(' ')[1]; //' 'splits words
+    let last = firstAndLast.split(' ')[1]; //' 'splits words
     console.log(last);
   
     //getter functions
@@ -43,14 +43,18 @@ var Person = function(firstAndLast){
     };
 };
 
-//Check solution
 var bob = new Person('Bob Ross');
+bob.getFullName();
+
+//Check solution
 console.log(bob.getFullName()); //returns "Bob Ross"
-console.log(bob.firstName); //return 'undefined' as required
-console.log(bob.lastName); //return 'undefined' as required
+console.log(bob.firstName); //returns 'undefined' as required
+console.log(bob.lastName); //returns 'undefined' as required
 bob.setFirstName("Haskell");
-console.log(bob.getFullName()); //return "Haskell Ross" as required
+console.log(bob.getFullName()); //returns "Haskell Ross" as required
 bob.setFirstName("Curry");
-console.log(bob.getFullName()); //return "Curry Ross" as required
+console.log(bob.getFullName()); //returns "Curry Ross" as required
 bob.setFullName("Haskell Curry");
-console.log(bob.getFullName()); //return "Haskell Curry" as required
+console.log(bob.getFullName()); //returns "Haskell Curry" as required
+console.log(Object.keys(bob).length);
+console.log(Object.keys(bob));
