@@ -27,6 +27,8 @@ shift,
 
 slice - returns the part of the array specified, does not change original array,
 
+some,
+
 sort,
 
 splice - returns removed items in an array, changing the original array
@@ -171,6 +173,10 @@ console.log(obj.result);
 * Adv_Algorithm_Make_A_Person
 
 ![project_screenshot](./img/Algo_Symmetric_Make_A_Person.png)
+
+* Int_Algorithm_Args_Optional
+
+![project_screenshot](./img/Algo_Args_Optional.png)
 
 ## Contact
 

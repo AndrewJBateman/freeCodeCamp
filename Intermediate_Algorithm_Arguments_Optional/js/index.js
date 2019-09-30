@@ -6,7 +6,9 @@ Calling this returned function with a single argument will then return the sum:
 var sumTwoAnd = addTogether(2);
 sumTwoAnd(3) returns 5.
 
-If either argument isn't a valid number, return undefined.*/
+If either argument isn't a valid number, return undefined.
+
+Cannot use fat arrow for addTogether function as it has arguments*/
 
 function addTogether() {
   const args = [...arguments]; //create array constant using spread syntax
@@ -18,17 +20,21 @@ function addTogether() {
 }
 
 //check solution:
-//var result = addTogether(2, 3);
-//console.log(result); //returns 5
-//var result = addTogether(2)(3);
-//console.log(result); //returns 5
-//var result = addTogether("http://bit.ly/IqT6zt");
-//console.log(result); //returns undefined
-//var result = addTogether(2, "3");
-//console.log(result); //returns undefined as "3" is a string not a number
-var result = addTogether(2)([3]);
-console.log(result); //returns undefined
+let result
+result = addTogether(2, 3);
+console.log('addTogether(2, 3) returns: ', result); //returns 5
 
+result = addTogether(2)(3);
+console.log('addTogether(2)(3) returns: ', result); //returns 5
+
+result = addTogether("http://bit.ly/IqT6zt");
+console.log('addTogether("http://bit.ly/IqT6zt") returns: ', result); //returns undefined
+
+result = addTogether(2, "3");
+console.log('addTogether(2, "3") returns: ', result); //returns undefined as "3" is a string not a number
+
+result = addTogether(2)([3]);
+console.log('addTogether(2)([3]) returns: ', result); //returns undefined
 
 /*Notes:
 [...arguments] uses the spread syntax. 
