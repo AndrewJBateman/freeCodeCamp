@@ -2,7 +2,16 @@
 
 * Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp. Help from Youtube videos and other info sources is acknowledged in the 'Inspiration' section below.
 
+## Projects
+
+* FCC Pomodoro Timer: Uses jQuery to show/hide elements (such as buttons) in the DOM. setInterval and clearInterval methods used to set and clear time in seconds. It works ok in normal PC screen size but is not fully-responsive - in phone-sized screen the timer is too small. Some of the colours (esp. timer background) do not give buttons sufficient contrast.
+
+* FCC Portfolio Page: tba
+
+## Algorithms
+
 * Array methods used:
+
 call - calls a function with a given this value and arguments provided individually
 
 concat,
@@ -14,6 +23,8 @@ flatten,
 forEach - executes a provided function once for each value in the Set object, in insertion order,
 
 includes,
+
+Mathfloor - rounds number downwards to nearest integer,
 
 Math.max,
 
@@ -77,6 +88,8 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 ## Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
+[html](https://html.spec.whatwg.org/multipage/)
+[CSS](https://www.w3.org/Style/CSS/)
 
 ## Setup
 
@@ -98,7 +111,11 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * [FreeCodeCamp Forum](https://www.freecodecamp.org/forum/)
 * [Regex Expression Tester](https://regexr.com/)
 
-## List of Projects with Screenshot
+## List of Projects/Algorithms with Screenshot
+
+* Project_Pomodoro
+
+![project_screenshot](./img/Pomodoro.png)
 
 * Adv_Algorithm_Exact_Change
 

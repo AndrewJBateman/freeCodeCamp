@@ -1,31 +1,29 @@
-body{
+body, html{
   background: url(https://previews.123rf.com/images/arisanjaya/arisanjaya1104/arisanjaya110400321/9249215-old-fashioned-clock.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-h2{
-  
+  height: 100%;
 }
 #container{
   border:5px solid grey;
   border-radius :20px;
   width:400px;
-  height: 550px;
+  height: 580px;
   margin:20px auto;
   padding:20px;
-  text-align:center;
-  background : pink;
+  text-align: center;
+  background: rgb(238, 234, 235);
   position: relative;
   top: 100px;
-  
 }
 #pomodoroTimer{
   color: grey;
-  font-size: 80px;
+  font-size: 60px;
+  font-weight: bold;
   margin: 10px auto;
-  border: 5px solid grey;
+  border: 10px solid grey;
   border-radius: 50%;
   width: 250px;
   height: 250px;
@@ -35,19 +33,12 @@ h2{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor:default;
+  cursor: default;
 }
 #time{
-  margin-top:60px;
-  z-index : 1;
-  position:relative;
-}
-#filler{
-  background : #55f207;
-  height: 0px;
-  width: 300px;
-  position:absolute;
-  bottom:0;
+  margin-top: 60px;
+  z-index: 1;
+  position: relative;
 }
 #workDisplay{
   background-color: white;
@@ -75,9 +66,17 @@ h2{
   font-weight: bold;
   text-align: center;
 }
+h1{
+  color: blue;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
 h2{
   color: blue;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
@@ -89,19 +88,14 @@ h2{
   box-shadow: 0 0 1px 1px grey;
 }
 .wideButton{
+  padding: 0px;
   height: 40px;
-  width: 84px;
-  font-size: 14px;
-  text-position: center;
+  width: 80px;
+  font-size: 16px;
+  margin: 1px;
   margin-top: 10px;
   margin-right: 1px;
   margin-left: 2px;
   border-radius: 10px;
   box-shadow: 0 0 1px 1px grey;
-}
-#buttonHeaders{
-  color: blue;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
 }
