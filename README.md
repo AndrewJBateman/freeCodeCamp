@@ -59,6 +59,8 @@ console.log(obj.count);
 console.log(obj.result);
 // expected output: true
 
+typeof() returns the type of an object, function or variable: i.e. number, string, boolean or undefined.
+
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## Table of contents
@@ -177,6 +179,10 @@ console.log(obj.result);
 * Int_Algorithm_Args_Optional
 
 ![project_screenshot](./img/Algo_Args_Optional.png)
+
+* Int_Algorithm_Boo_Who
+
+![project_screenshot](./img/Algo_Boo_Who.png)
 
 ## Contact
 
