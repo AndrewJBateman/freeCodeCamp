@@ -6,7 +6,9 @@
 
 * FCC Pomodoro Timer: Uses jQuery to show/hide elements (such as buttons) in the DOM. setInterval and clearInterval methods used to set and clear time in seconds. It works ok in normal PC screen size but is not fully-responsive - in phone-sized screen the timer is too small. Some of the colours (esp. timer background) do not give buttons sufficient contrast.
 
-* FCC Portfolio Page: tba
+* FCC Portfolio Page: responsive personal website created using html & css. Includes Youtube video that plays using iframe.
+
+* FCC Simon Game: tba
 
 ## Algorithms
 
@@ -117,6 +119,13 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Project_Pomodoro
 
 ![project_screenshot](./img/Pomodoro.png)
+
+* Project_Website
+
+![project_screenshot](./img/website_home.png)
+![project_screenshot](./img/website_about.png)
+![project_screenshot](./img/website_projects.png)
+![project_screenshot](./img/website_interests_contact.png)
 
 * Adv_Algorithm_Exact_Change
 

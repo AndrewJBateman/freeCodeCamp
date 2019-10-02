@@ -85,9 +85,10 @@ footer {
 #about {
   display: flex;
   justify-content: center;
-  
-  iframe {
-    max-width: 560px;
-    width: 100%;
-  }
+
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
 }
