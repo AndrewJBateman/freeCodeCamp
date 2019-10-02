@@ -10,7 +10,7 @@
 
 ## Algorithms
 
-* Array methods used:
+*** Array methods used:**
 
 call - calls a function with a given this value and arguments provided individually
 
@@ -44,7 +44,8 @@ sort,
 
 splice - returns removed items in an array, changing the original array
 
-* String methods used:
+*** String methods used:**
+
 regex,
 
 replace,
@@ -200,6 +201,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Boo_Who
 
 ![project_screenshot](./img/Algo_Boo_Who.png)
+
+* Int_Algorithm_Convert_HTML
+
+![project_screenshot](./img/Algo_Convert_HTML.png)
 
 ## Contact
 
