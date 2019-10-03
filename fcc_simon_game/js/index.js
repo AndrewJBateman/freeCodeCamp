@@ -58,6 +58,7 @@ $(".off").mousedown(function(){
   $(".strict-btn").addClass("disabled");
 });
 
+// jQuery detects state of readiness and nly runs once DOM ready.
 $(document).ready(function(){
   $(".strict-btn").addClass("disabled");
   $(".on").show();
@@ -65,39 +66,38 @@ $(document).ready(function(){
   $(".simon-btn").addClass("disabled");
   $(".display").html("");
   
-    $(".start-btn").mousedown(function(){ //start button function
-    if(turnedOn){
+  $(".start-btn").mousedown(function(){
+    if (turnedOn){
       reset();
       count +=1;
       randSequence();  
-    }
-    else{
+    } else {
       alert("You need to press the ON button first!");
     }
-  }); //end of function start on click
+  });
   
-    $(".simon-btn").mousedown(function(){ //red, blue, yellow or green button pressed
+  $(".simon-btn").mousedown(function(){ //red, blue, yellow or green button pressed
     color = $(this).attr("id"); //color identified from id of button
     playerSequence();
-  }); //end function simon-btn click 
+  });
 
   $(".strict-btn").mousedown(function(){
-      count = 0; //clear count
-      randomSeq = []; //clear random sequence array
-      playerSeq = []; //clear player sequence array
-      strictMode = true;
-      randSequence(); //start a new random sequence
-      count +=1;
+    count = 0; //clear count
+    randomSeq = []; //clear random sequence array
+    playerSeq = []; //clear player sequence array
+    strictMode = true;
+    randSequence(); //start a new random sequence
+    count +=1;
     $(".display").html(count);
-  }); //end function strict-btn click
+  });
   
   //ON button 
   $(".on").mousedown(function(){
     turnedOn = true;
-    if(turnedOn){
+    if (turnedOn){
       $(".display").html("0");
     }
-    else{
+    else {
       $(".display").html("");
     }
   }); //end of function on-off switch  
@@ -111,7 +111,7 @@ function reset(){
   randomSeq = [];
   playerSeq = [];
   $(".display").html(count);
-} //end function reset
+}
 
 function randSequence(){ //Create random sequences
   $(".simon-btn").addClass("disabled"); //prevent pressing of buttons when in random sequence
@@ -135,8 +135,8 @@ function randSequence(){ //Create random sequences
       clearInterval(myInterval);
       $(".simon-btn").removeClass("disabled"); //reactivate user input buttons
     }
-  }, 900); //end of function setInterval 
-} //end function randSequence
+  }, 900);
+}
 
 function playerSequence(){ //Add player color choices to playerSeq array and check if correct.
   playerSeq.push(color); //add color to the end of the playerSeq array
@@ -165,7 +165,7 @@ function playerSequence(){ //Add player color choices to playerSeq array and che
     gameWon();
     reset();
   } 
-} //end of function userSequence
+}
 
 function checkPlayerSeq(){//check if player colour choice is correct, for entire player array. 
   for (var i=0; i<playerSeq.length; i++){
@@ -177,7 +177,7 @@ function checkPlayerSeq(){//check if player colour choice is correct, for entire
   return true; //function returns boolean true or false
 } //end of function checkUserSeq
 
-function errDisplay(){ //if error display "Err" for 1 seconds
+function errDisplay(){ //if error display "Err" for 1 second
   var timeCount = 0;
   var errCount = setInterval(function(){
     $(".display").html("Err");
@@ -205,12 +205,12 @@ function gameWon(){ //if 20 correct color choices display "Won" for 2 seconds
       timeCount = 0;
     }
   }, 500);
-} //end of function gameWon
+}
 
 function getRandomColor(){ //create random color & add to randomSeq array
   var randColor = colors[Math.floor(Math.random()*colors.length)]; 
   randomSeq.push(randColor);
-} //end of function to get a random color
+}
 
 function flashColor(randColor){ //Choose from 4 colour functions to flash and play audio
   switch(randColor){
@@ -222,13 +222,13 @@ function flashColor(randColor){ //Choose from 4 colour functions to flash and pl
     break;
     case "green": greenFlash();
     break;
-  } //end switch  
-} //end function flashColor
+  }
+}
 
 function playSound(id){ //play sound for each button, based on buttonSound mp3 array
   var sound = new Audio(btnSound[id]);
   sound.play();
-} //end of function to play sound
+}
   
 function redFlash(){ //red button clicked function
   playSound(0);
@@ -236,7 +236,7 @@ function redFlash(){ //red button clicked function
   setTimeout(function(){
     $("#red").css("background", "red");
   }, 500);
-} //end of function to flash red
+}
 
 function blueFlash(){ //blue button clicked function
   playSound(1);
@@ -244,7 +244,7 @@ function blueFlash(){ //blue button clicked function
   setTimeout(function(){
     $("#blue").css("background", "blue");
   }, 500);
-} //end of function to flash blue
+}
   
 function yellowFlash(){ //yellow button clicked function
   playSound(2);
@@ -252,7 +252,7 @@ function yellowFlash(){ //yellow button clicked function
   setTimeout(function(){
     $("#yellow").css("background", "yellow");
   }, 500);
-} //end of function to flash yellow
+}
   
 function greenFlash(){ //green button clicked function
   playSound(3);
@@ -260,7 +260,7 @@ function greenFlash(){ //green button clicked function
   setTimeout(function(){
     $("#green").css("background", "green");
   }, 500);
-} //end of function to flash green
+}
   
 function flashAll(){ //function to flash all lights in brighter colors once for 2 seconds
   $("#red").css("background", "#FF355E");
@@ -273,4 +273,4 @@ function flashAll(){ //function to flash all lights in brighter colors once for 
     $("#green").css("background", "green");
     $("#yellow").css("background", "yellow");
   }, 2000);
-} //end of function to flash all colors
+}

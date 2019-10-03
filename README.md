@@ -8,7 +8,7 @@
 
 * FCC Portfolio Page: responsive personal website created using html & css. Includes Youtube video that plays using iframe.
 
-* FCC Simon Game: tba
+* FCC Simon Game: uses html. css & jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
 
 ## Algorithms
 
@@ -95,6 +95,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 [html](https://html.spec.whatwg.org/multipage/)
 [CSS](https://www.w3.org/Style/CSS/)
+[jQuery](https://learn.jquery.com/)
 
 ## Setup
 
@@ -115,6 +116,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * [FreeCodeCamp](https://www.freecodecamp.org/)
 * [FreeCodeCamp Forum](https://www.freecodecamp.org/forum/)
 * [Regex Expression Tester](https://regexr.com/)
+* [Mozilla Web Docs - Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## List of Projects/Algorithms with Screenshot
 
@@ -128,6 +130,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 ![project_screenshot](./img/website_about.png)
 ![project_screenshot](./img/website_projects.png)
 ![project_screenshot](./img/website_interests_contact.png)
+
+* Simon_Game
+
+![project_screenshot](./img/simon_game.png)
 
 * Adv_Algorithm_Exact_Change
 
