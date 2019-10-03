@@ -12,7 +12,7 @@
 
 ## Algorithms
 
-*** Array methods used:**
+### Array methods used
 
 call - calls a function with a given this value and arguments provided individually
 
@@ -46,7 +46,9 @@ sort,
 
 splice - returns removed items in an array, changing the original array
 
-*** String methods used:**
+### String methods used
+
+map,
 
 regex,
 
@@ -214,6 +216,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Convert_HTML
 
 ![project_screenshot](./img/Algo_Convert_HTML.png)
+
+* Int_Algorithm_DNA_Pairing
+
+![project_screenshot](./img/Algo_DNA_Pairing.png)
 
 ## Contact
 

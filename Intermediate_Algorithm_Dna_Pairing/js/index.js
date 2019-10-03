@@ -11,17 +11,20 @@ For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
 The character and its pair are paired up in an array, and all the arrays 
 are grouped into one encapsulating array.*/
 
-function pairElement(str) {
+const pairElement = (str) => {
   //create a char array with the first and second elements as pairs
   const chars = {'A':'T','T':'A','C':'G','G':'C'};
-  //split the string into its individual letters then use map function to pair each element using the char array above
+  //split the string into its individual letters then use map function to pair each element in its own array using the char array above
   return str.split('').map(item => [item, chars[item]]); 
 }
 
 //Test solution 
-var result = pairElement("GCG");
-console.log(result);
-var result = pairElement("TTGAG");
-console.log(result);
-var result = pairElement("CTCTA");
-console.log(result);
+let result 
+result = pairElement("GCG");
+console.log('pairElement("GCG") returns; ', result);
+
+result = pairElement("TTGAG");
+console.log('pairElement("TTGAG") returns: ', result);
+
+result = pairElement("CTCTA");
+console.log('pairElement("CTCTA") returns: ', result);
