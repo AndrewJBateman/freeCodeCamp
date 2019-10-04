@@ -6,7 +6,7 @@
 }
 @media (max-width:600px) {
   #container{
-    idth:550px;
+    width:550px;
     background-color: orange;
   }
 }
@@ -25,16 +25,15 @@
 }
 header {
   background-color:pink;
-  display:grid;
-  grid-template-columns:3fr 1fr;
   margin:0;
+  padding:30px;
+  border:2px solid blue;
 }
 #title {
   color:white;
   font-weight:400;
   letter-spacing:2px;
-  justify-self:start;
-  align-self:start;
+  text-align: center;
   margin-bottom:0;
 }
 #description {
@@ -45,11 +44,16 @@ header {
   align-self:start;
   letter-spacing:2px;
   margin-top:5px;
-  text-align:left;
+  text-align:center;
 }
 #survey-form {
   padding:20px;
   border:2px solid blue;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 0.5;
 }
 
 @media (min-width:600px) {
@@ -76,7 +80,9 @@ label>b {
 }
 
 input::placeholder {
-  font-size:23px
+  font-size:23px;
+  color: grey;
+  opacity: 0.5;
 }
 #name,#email,#number {
   height:23px;
@@ -119,11 +125,5 @@ input::placeholder {
   padding:5px;
 }
 textarea::placeholder {
-  font-size:20px;
+  font-size:18px;
 }
-
-
-
-
-
-

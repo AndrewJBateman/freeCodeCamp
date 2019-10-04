@@ -8,17 +8,24 @@
 
 * FCC Portfolio Page: responsive personal website created using html & css. Includes Youtube video that plays using iframe.
 
-* FCC Simon Game: uses html. css & jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
+* FCC Simon Game: uses html, css & jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
+
+* FCC Survey Form: uses html and css. No javascript - form Submit button does not do anything. Form reset button does clear form field contents. Does not resize properly but this was not required to pass the 17 tests.
 
 ## Algorithms
 
 ### Array methods used
 
 call - calls a function with a given this value and arguments provided individually,
+
 concat,
+
 **every** - tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
+
 filter,
+
 **flat**, creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
 _Examples:
 var arr1 = [1, 2, [3, 4]];
 arr1.flat();
@@ -72,17 +79,16 @@ toLowerCase, toUpperCase
 
 ### Object Methods
 
-* JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
+JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
 
-* JSON.parse() method used, parses a JSON string, constructing the object described in the string.
-
-* Object methods:
+JSON.parse() method used, parses a JSON string, constructing the object described in the string.
 
 hasOwnProperty()
 
 Object.keys() - returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. Note: enumerable can be set to false - default is true.
 
-eg var json = '{"result":true, "count":42}';
+_example
+var json = '{"result":true, "count":42}';
 obj = JSON.parse(json);
 
 console.log(obj.count);
@@ -91,7 +97,7 @@ console.log(obj.count);
 console.log(obj.result);
 // expected output: true
 
-typeof() returns the type of an object, function or variable: i.e. number, string, boolean or undefined.
+typeof() returns the type of an object, function or variable: i.e. number, string, boolean or undefined._
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -150,6 +156,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Simon_Game
 
 ![project_screenshot](./img/simon_game.png)
+
+* Survey_Form
+
+![project_screenshot](./img/survey_form.png)
 
 * Adv_Algorithm_Exact_Change
 
