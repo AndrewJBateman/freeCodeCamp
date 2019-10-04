@@ -8,9 +8,11 @@
 
 * FCC Portfolio Page: responsive personal website created using html & css. Includes Youtube video that plays using iframe.
 
-* FCC Simon Game: uses html, css & jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
+* FCC Simon Game: uses html, css and jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
 
 * FCC Survey Form: uses html and css. No javascript - form Submit button does not do anything. Form reset button does clear form field contents. Does not resize properly but this was not required to pass the 17 tests.
+
+* Wikipedia Viewer: uses tml, css and jQuery. An Ajax call is used to get wikipedia API info and perform a function (using the ajax success method to output API data).
 
 ## Algorithms
 
@@ -160,6 +162,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Survey_Form
 
 ![project_screenshot](./img/survey_form.png)
+
+* Wikipedia_Viewer
+
+![project_screenshot](./img/wiki_viewer.png)
 
 * Adv_Algorithm_Exact_Change
 
