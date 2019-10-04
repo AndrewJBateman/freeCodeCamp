@@ -24,7 +24,7 @@ concat,
 
 **every** - tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
 
-filter,
+**filter** - creates a new array with all elements that pass the test in the function contained,
 
 **flat**, creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
@@ -262,6 +262,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Everything_Be_True
 
 ![project_screenshot](./img/Algo_Everything_True.png)
+
+* Int_Algorithm_Finders_Keepers
+
+![project_screenshot](./img/Algo_Finders_Keepers.png)
 
 ## Contact
 
