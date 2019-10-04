@@ -14,15 +14,29 @@
 
 ### Array methods used
 
-call - calls a function with a given this value and arguments provided individually
-
+call - calls a function with a given this value and arguments provided individually,
 concat,
-
+**every** - tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
 filter,
+**flat**, creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+_Examples:
+var arr1 = [1, 2, [3, 4]];
+arr1.flat();
+// [1, 2, 3, 4]
 
-flatten,
+var arr2 = [1, 2, [3, 4, [5, 6]]];
+arr2.flat();
+// [1, 2, 3, 4, [5, 6]]
 
-forEach - executes a provided function once for each value in the Set object, in insertion order,
+var arr3 = [1, 2, [3, 4, [5, 6]]];
+arr3.flat(2);
+// [1, 2, 3, 4, 5, 6]
+
+var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
+arr4.flat(Infinity);
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]_
+
+**forEach** - executes a provided function once for each value in the Set object, in insertion order,
 
 includes,
 
@@ -38,13 +52,13 @@ reverse,
 
 shift,
 
-slice - returns the part of the array specified, does not change original array,
+**slice** - returns the part of the array specified, does not change original array,
 
 some,
 
 sort,
 
-splice - returns removed items in an array, changing the original array
+**splice** - returns removed items in an array, changing the original array
 
 ### String methods used
 
@@ -55,6 +69,8 @@ regex,
 replace,
 
 toLowerCase, toUpperCase
+
+### Object Methods
 
 * JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
 
@@ -226,6 +242,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_DNA_Pairing
 
 ![project_screenshot](./img/Algo_DNA_Pairing.png)
+
+* Int_Algorithm_Everything_Be_True
+
+![project_screenshot](./img/Algo_Everything_True.png)
 
 ## Contact
 
