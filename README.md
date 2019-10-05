@@ -18,13 +18,13 @@
 
 ### Array methods used
 
-call - calls a function with a given this value and arguments provided individually,
+**call** calls a function with a given this value and arguments provided individually,
 
 concat,
 
-**every** - tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
+**every** tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
 
-**filter** - creates a new array with all elements that pass the test in the function contained,
+**filter** creates a new array with all elements that pass the test in the function contained,
 
 **flat**, creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
@@ -45,23 +45,23 @@ var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 arr4.flat(Infinity);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]_
 
-**forEach** - executes a provided function once for each value in the Set object, in insertion order,
+**forEach** executes a provided function once for each value in the Set object, in insertion order,
 
 includes,
 
-Mathfloor - rounds number downwards to nearest integer,
+**Mathfloor** rounds number downwards to nearest integer,
 
 Math.max,
 
 Math.min,
 
-reduce - executes a reducer function on each element of an array,
+**reduce** executes a reducer function on each element of an array,
 
 reverse,
 
 shift,
 
-**slice** - returns the part of the array specified, does not change original array,
+**slice** returns the part of the array specified, does not change original array,
 
 some,
 
@@ -70,6 +70,10 @@ sort,
 **splice** - returns removed items in an array, changing the original array
 
 ### String methods used
+
+**String.charCodeAt()** method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index,
+
+**String.fromCharCode()** method returns a string created from the specified sequence of UTF-16 code units,
 
 map,
 
@@ -81,13 +85,13 @@ toLowerCase, toUpperCase
 
 ### Object Methods
 
-JSON.stringify() method used, converts a JavaScript object or value to a JSON string.
+**JSON.stringify()** method used, converts a JavaScript object or value to a JSON string.
 
-JSON.parse() method used, parses a JSON string, constructing the object described in the string.
+**JSON.parse()** method used, parses a JSON string, constructing the object described in the string.
 
 hasOwnProperty()
 
-Object.keys() - returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. Note: enumerable can be set to false - default is true.
+**Object.keys()** returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. Note: enumerable can be set to false - default is true.
 
 _example
 var json = '{"result":true, "count":42}';
@@ -266,6 +270,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Finders_Keepers
 
 ![project_screenshot](./img/Algo_Finders_Keepers.png)
+
+* Int_Algorithm_Missing_Letters
+
+![project_screenshot](./img/Algo_Missing_Letters.png)
 
 ## Contact
 
