@@ -4,15 +4,17 @@
 
 ## Projects
 
-* FCC Pomodoro Timer: Uses jQuery to show/hide elements (such as buttons) in the DOM. setInterval and clearInterval methods used to set and clear time in seconds. It works ok in normal PC screen size but is not fully-responsive - in phone-sized screen the timer is too small. Some of the colours (esp. timer background) do not give buttons sufficient contrast.
+* **FCC Pomodoro Timer:** Uses jQuery to show/hide elements (such as buttons) in the DOM. setInterval and clearInterval methods used to set and clear time in seconds. It works ok in normal PC screen size but is not fully-responsive - in phone-sized screen the timer is too small. Some of the colours (esp. timer background) do not give buttons sufficient contrast.
 
-* FCC Portfolio Page: responsive personal website created using html & css. Includes Youtube video that plays using iframe.
+* **FCC Portfolio Page:** responsive personal website created using html & css. Includes Youtube video that plays using iframe.
 
-* FCC Simon Game: uses html, css and jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
+* **FCC Simon Game:** uses html, css and jQuery to create this famous game that flashes 4 coloured buttons and plays 4 different audio files. Player sequence compared with random sequence to see if player can progress to a longer sequence. Includes strict mode that resets if a mistake is made.
 
-* FCC Survey Form: uses html and css. No javascript - form Submit button does not do anything. Form reset button does clear form field contents. Does not resize properly but this was not required to pass the 17 tests.
+* **FCC Survey Form:** uses html and css. No javascript - form Submit button does not do anything. Form reset button does clear form field contents. Does not resize properly but this was not required to pass the 17 tests.
 
-* Wikipedia Viewer: uses tml, css and jQuery. An Ajax call is used to get wikipedia API info and perform a function (using the ajax success method to output API data).
+* **Wikipedia Viewer:** uses tml, css and jQuery. An Ajax call is used to get wikipedia API info and perform a function (using the ajax success method to output API data).
+
+* **Tic Tac Toe:** uses html, css & jQuery. This is no longer in the fcc curriculum. I didn't use the Minimax algorithm to make the ai side more unbeatable so the game is not that challenging but it passes the fcc tests. Uses a main function and separate functions for move(), ai() - a simple random move by the pc to any of 9 unused squares, finishgame() - shows messages to say who won, checkWon() - compares results with an array of horiz and vertical winning lines & reset().
 
 ## Algorithms
 
@@ -150,7 +152,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Project_Pomodoro
 
-![project_screenshot](./img/Pomodoro.png)
+![project_screenshot](./img/pomodoro.png)
 
 * Project_Website
 
@@ -170,6 +172,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Wikipedia_Viewer
 
 ![project_screenshot](./img/wiki_viewer.png)
+
+* Tic_Tac_Toe
+
+![project_screenshot](./img/tictactoe.png)
 
 * Adv_Algorithm_Exact_Change
 
@@ -245,7 +251,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Adv_Algorithm_Make_A_Person
 
-![project_screenshot](./img/Algo_Symmetric_Make_A_Person.png)
+![project_screenshot](./img/Algo_Make_A_Person.png)
 
 * Int_Algorithm_Args_Optional
 

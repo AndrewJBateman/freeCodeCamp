@@ -1,5 +1,7 @@
 body{
   background: pink;
+  align-content: center;
+  padding: 20px;
 }
 .keypad{
   text-align: center;
@@ -14,13 +16,13 @@ h2{
   color: blue;
   text-align: center;
 }
-.row1, .row2, .row3, {
+.row1, .row2, .row3 {
   margin: 2px;
 }
 .btn{
   height: 80px;
   width: 80px;
-  margin: 2px 0px 2px 0;
+  margin: 2px 0;
   font-size: 40px;
 }
 #reset{
