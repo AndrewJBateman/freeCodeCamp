@@ -181,6 +181,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 ![project_screenshot](./img/tictactoe.png)
 
+* Tic_Tac_Toe
+
+![project_screenshot](./img/js_calculator.png)
+
 * Adv_Algorithm_Exact_Change
 
 ![project_screenshot](./img/Algorithm_Exact_Change.png)
@@ -287,7 +291,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Int_Algorithm_Property_Value_Pairs
 
-![project_screenshot](./img/Algo_Object_Value_Pairs.png)
+![project_screenshot](./img/Algo_Object_Value_Keys.png)
 
 ## Contact
 
