@@ -91,7 +91,7 @@ toLowerCase, toUpperCase
 
 **JSON.parse()** method used, parses a JSON string, constructing the object described in the string.
 
-hasOwnProperty()
+**hasOwnProperty()** method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it).
 
 **Object.keys()** returns an array of a given object's own enumerable property names, in the same order as we get with a normal loop. Note: enumerable can be set to false - default is true.
 
@@ -280,6 +280,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Missing_Letters
 
 ![project_screenshot](./img/Algo_Missing_Letters.png)
+
+* Int_Algorithm_Property_Value_Pairs
+
+![project_screenshot](./img/Algo_Object_Value_Pairs.png)
 
 ## Contact
 
