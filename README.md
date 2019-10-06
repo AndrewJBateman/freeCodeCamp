@@ -16,6 +16,8 @@
 
 * **Tic Tac Toe:** uses html, css & jQuery. This is no longer in the fcc curriculum. I didn't use the Minimax algorithm to make the ai side more unbeatable so the game is not that challenging but it passes the fcc tests. Uses a main function and separate functions for move(), ai() - a simple random move by the pc to any of 9 unused squares, finishgame() - shows messages to say who won, checkWon() - compares results with an array of horiz and vertical winning lines & reset().
 
+* **Javascript Calculator** uses html, css & javascript. Simple hmtl/css keypad that is not very responsive but that was not a requirement to pass the tests. Javascript uses eval function to perform actual calculation. Function to prevent operands being registered more than 1x. Functions to clear last value entered and clear entire screen.
+
 ## Algorithms
 
 ### Array methods used
@@ -72,6 +74,8 @@ sort,
 **splice** - returns removed items in an array, changing the original array
 
 ### String methods used
+
+**eval()** function evaluates JavaScript code represented as a string. Used in js calculator project.
 
 **String.charCodeAt()** method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index,
 
