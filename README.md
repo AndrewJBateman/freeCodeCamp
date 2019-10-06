@@ -81,7 +81,7 @@ sort,
 
 **String.fromCharCode()** method returns a string created from the specified sequence of UTF-16 code units,
 
-map,
+**map** method creates a new array with the results of calling a provided function on every element in the calling array,
 
 regex,
 
@@ -156,7 +156,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Project_Pomodoro
 
-![project_screenshot](./img/pomodoro.png)
+![project_screenshot](./img/pomodoro_timer.png)
 
 * Project_Website
 
@@ -179,9 +179,9 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Tic_Tac_Toe
 
-![project_screenshot](./img/tictactoe.png)
+![project_screenshot](./img/tictactoe_game.png)
 
-* Tic_Tac_Toe
+* JS Calculator
 
 ![project_screenshot](./img/js_calculator.png)
 
