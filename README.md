@@ -18,6 +18,8 @@
 
 * **Javascript Calculator** uses html, css & javascript. Simple hmtl/css keypad that is not very responsive but that was not a requirement to pass the tests. Javascript uses eval function to perform actual calculation. Function to prevent operands being registered more than 1x. Functions to clear last value entered and clear entire screen.
 
+* **Personal Portfolio Page** uses html and css. Simple partly-responsive website to learn basic website layout. Very early work so layout has errors but it passed the tests. It does have working navigation.
+
 ## Algorithms
 
 ### Array methods used
@@ -173,7 +175,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 * Survey_Form
 
-![project_screenshot](./img/survey_form.png)
+![project_screenshot](./img/fcc_survey_form.png)
 
 * Wikipedia_Viewer
 
@@ -186,6 +188,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * JS Calculator
 
 ![project_screenshot](./img/js_calculator.png)
+
+* Personal_Portfolio_Page
+
+![project_screenshot](./img/personal_port_page.png)
 
 * Adv_Algorithm_Exact_Change
 
