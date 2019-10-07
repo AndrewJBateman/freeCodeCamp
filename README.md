@@ -305,6 +305,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 ![project_screenshot](./img/Algo_Pig_Latin.png)
 
+* Int_Algorithm_Least_Common_Multiple
+
+![project_screenshot](./img/Algo_Least_Common.png)
+
 ## Contact
 
 Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
