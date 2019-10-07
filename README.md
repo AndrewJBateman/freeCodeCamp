@@ -83,6 +83,8 @@ sort,
 
 **map** method creates a new array with the results of calling a provided function on every element in the calling array,
 
+**match()** method returns the result of matching a string against a regular expression.
+
 regex,
 
 replace,
@@ -292,6 +294,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Property_Value_Pairs
 
 ![project_screenshot](./img/Algo_Object_Value_Keys.png)
+
+* Int_Algorithm_Pig_Latin
+
+![project_screenshot](./img/Algo_Pig_Latin.png)
 
 ## Contact
 
