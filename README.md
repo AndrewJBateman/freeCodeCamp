@@ -55,6 +55,8 @@ arr4.flat(Infinity);
 
 includes,
 
+**indexOf()** method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
 **Mathfloor** rounds number downwards to nearest integer,
 
 Math.max,
@@ -78,6 +80,8 @@ sort,
 ### String methods used
 
 **eval()** function evaluates JavaScript code represented as a string. Used in js calculator project.
+
+**indexOf()** method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.
 
 **String.charCodeAt()** method returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index,
 
@@ -308,6 +312,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Least_Common_Multiple
 
 ![project_screenshot](./img/Algo_Least_Common.png)
+
+* Int_Algorithm_Sorted_Union
+
+![project_screenshot](./img/Algo_Sorted_Union.png)
 
 ## Contact
 
