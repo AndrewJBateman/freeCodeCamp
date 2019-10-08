@@ -20,6 +20,8 @@
 
 * **Personal Portfolio Page** uses html and css. Simple partly-responsive website to learn basic website layout. Very early work so layout has errors but it passed the tests. It does have working navigation.
 
+* **Random Quote** updated 0ct/2019: uses html, css & jQuery. gets random quotes from a REST API to display in html. Resizes down to mobile phone xs size. Original API no longer working so end point changed to another free API called kanye.rest which just returns random quotes - no auther field.
+
 ## Algorithms
 
 ### Array methods used
@@ -189,9 +191,13 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 ![project_screenshot](./img/tictactoe_game.png)
 
-* JS Calculator
+* JS_Calculator
 
 ![project_screenshot](./img/js_calculator.png)
+
+* Random_Quote_API
+
+![project_screenshot](./img/random_quote.png)
 
 * Personal_Portfolio_Page
 

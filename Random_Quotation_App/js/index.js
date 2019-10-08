@@ -1,13 +1,15 @@
 /*Uses jQuery libary methods ($) to get JSON-formatted text from an API weblink then displays only quote (as #quote) & author (as #author) from the results in html format.  */
-function getQuote () {
- $.getJSON( "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1",
+getQuote = () => {
+ $.getJSON('https://api.kanye.rest?format=json',
       function(apiResult) {
-        $('#quote').html(apiResult[0].content);
-        $('#author').html("- " + apiResult[0].title);
+        console.log(apiResult)
+        $('#quote').html(apiResult.quote);
+        $('#author').html("- Kanye.rest");
       });
 }
+
 /*jQuery library methods to run a function to get a new quote when the #quote-button is pressed. */
-$(document).ready(function() {
+$(document).ready(() => {
   getQuote();
   $.ajaxSetup({cache: false}); /*sets default value for future ajax requests. Cache indicates if browser should cache page (boolean: default True) */
   $("#quote-button").on("click", function() {
