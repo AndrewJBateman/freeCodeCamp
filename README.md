@@ -22,6 +22,8 @@
 
 * **Random Quote** updated 0ct/2019: uses html, css & jQuery. gets random quotes from a REST API to display in html. Resizes down to mobile phone xs size. Original API no longer working so end point changed to another free API called kanye.rest which just returns random quotes - no auther field.
 
+* **FCC Landing Page** uses html and css. very similar to Personal Portfolio Pages - created for FCC Design Projects. Working navigation. Responsive.
+
 ## Algorithms
 
 ### Array methods used
@@ -69,7 +71,7 @@ Math.min,
 
 reverse,
 
-shift,
+**shift** method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
 **slice** returns the part of the array specified, does not change original array,
 
@@ -203,6 +205,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 ![project_screenshot](./img/personal_port_page.png)
 
+* FCC_Landing_Page
+
+![project_screenshot](./img/fcc_landing.png)
+
 * Adv_Algorithm_Exact_Change
 
 ![project_screenshot](./img/Algorithm_Exact_Change.png)
@@ -322,6 +328,10 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * Int_Algorithm_Sorted_Union
 
 ![project_screenshot](./img/Algo_Sorted_Union.png)
+
+* Int_Algorithm_Drop_It
+
+![project_screenshot](./img/Algo_Drop_It.png)
 
 ## Contact
 
