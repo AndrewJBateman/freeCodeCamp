@@ -24,13 +24,15 @@
 
 * **FCC Landing Page** uses html and css. very similar to Personal Portfolio Pages - created for FCC Design Projects. Working navigation. Responsive.
 
+* **Twitch TV** uses html, css, javascript & jQuery to get json data from the Twitch TV API. This was an FCC project challenge but it is not in the new syllabus. The Twitch TV end point has changed. Get requests receive unauthorised response 401. May need new access key. All get request addresses need to be updated. Code should be refactored to reduce duplication. [Link to Twitch API dev page](https://dev.twitch.tv/docs/api/reference#get-streams).
+
 ## Algorithms
 
 ### Array methods used
 
 **call** calls a function with a given this value and arguments provided individually,
 
-concat,
+**concat** merges 2 or more arrays. Existing arrays not changed.
 
 **every** tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
 
@@ -57,15 +59,16 @@ arr4.flat(Infinity);
 
 **forEach** executes a provided function once for each value in the Set object, in insertion order,
 
-includes,
+**includes** cehcks whether a specified value is included in the array, returning true or false.
 
 **indexOf()** method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 **Mathfloor** rounds number downwards to nearest integer,
 
-Math.max,
+**Math.max** returns the largest of 0 or more numbers.
 
-Math.min,
+**Math.min** returns the lowest-value number.
+_e.g. var array1 = [2, 3, 1]; console.log(Math.min(...array1)); // expected output: 1_
 
 **reduce** executes a reducer function on each element of an array,
 

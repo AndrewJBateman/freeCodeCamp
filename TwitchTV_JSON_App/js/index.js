@@ -21,7 +21,8 @@ $(document).ready(function() {
   //ajax function to show status of free code camp stream, with link to the site.  
   $.ajax({
     type: "GET",
-    url: "https://api.twitch.tv/kraken/streams/freecodecamp",
+    // url: "https://api.twitch.tv/kraken/streams/freecodecamp",
+    url: "https://api.twitch.tv/helix/streams",
     headers: {"Client-ID": "8oplrqe1dww6gvztak3cydwhi6h58g"},
     dataType: "json",
     success: function(freeccstatus) { 
@@ -36,7 +37,7 @@ $(document).ready(function() {
         var getStatus = function() {
           //main ajax function to get streams for usernames
           $.ajax({
-            url: "https://api.twitch.tv/kraken/streams/" + user,
+            url: "https://api.twitch.tv/helix/streams" + user,
             headers: {"Client-ID": "8oplrqe1dww6gvztak3cydwhi6h58g"},
             dataType: "json",
             success: function (data) {
@@ -80,7 +81,7 @@ $(document).ready(function() {
                   "<div class = 'col-sm-2'>" + "<img src = '" + logo + "'>" + "</div>" + 
                   "<div class = 'col-sm-3'>" + "<a href ='" + url + "' target='_blank'>" + name + "</a></div>" + 
                   "<div class = 'col-sm-7'>" + status + "</div></div>").css("color", "#009900");
-                } //end if for online data stream
+                }
               } //end else
 
             } //end success data function
@@ -105,7 +106,7 @@ $(document).ready(function() {
           //ajax function just for search result        
           $.ajax({
             type: "GET",
-            url: "https://api.twitch.tv/kraken/streams/" + result,
+            url: "https://api.twitch.tv/helix/streams" + result,
             headers: {"Client-ID": "8oplrqe1dww6gvztak3cydwhi6h58g"},
             dataType: "json",
             success: function (data) {
