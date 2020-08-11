@@ -1,8 +1,8 @@
-# Javascript Front End Certification
+# :zap: Javascript Front End Certification
 
 * Contains my code created to meet challenges in the JavaScript Full Stack Web Development Program at Free Code Camp. Help from Youtube videos and other info sources is acknowledged in the 'Inspiration' section below.
 
-## Projects
+## :page_facing_up: Projects
 
 * **FCC Pomodoro Timer:** Uses jQuery to show/hide elements (such as buttons) in the DOM. setInterval and clearInterval methods used to set and clear time in seconds. It works ok in normal PC screen size but is not fully-responsive - in phone-sized screen the timer is too small. Some of the colours (esp. timer background) do not give buttons sufficient contrast.
 
@@ -26,7 +26,7 @@
 
 * **Twitch TV** uses html, css, javascript & jQuery to get json data from the Twitch TV API. This was an FCC project challenge but it is not in the new syllabus. The Twitch TV end point has changed. Get requests receive unauthorised response 401. May need new access key. All get request addresses need to be updated. Code should be refactored to reduce duplication. [Link to Twitch API dev page](https://dev.twitch.tv/docs/api/reference#get-streams).
 
-## Algorithms
+## :computer: Algorithms
 
 ### Array methods used
 
@@ -36,7 +36,11 @@
 
 **every** tests whether all elements in the array pass the test implemented by the provided function, returns a Boolean,
 
-**filter** creates a new array with all elements that pass the test in the function contained,
+**filter** creates a new array with all elements that pass the test in the function contained.
+
+**find** returns the value of the first element in an array that pass a test.
+
+**findIndex** returns the index of the first element in an array that pass a test
 
 **flat**, creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
@@ -57,9 +61,11 @@ var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 arr4.flat(Infinity);
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]_
 
-**forEach** executes a provided function once for each value in the Set object, in insertion order,
+**forEach** executes a provided function once for each value in the Set object, in insertion order.
 
-**includes** cehcks whether a specified value is included in the array, returning true or false.
+**from** alternative to map()
+
+**includes** checks whether a specified value is included in the array, returning true or false.
 
 **indexOf()** method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
@@ -70,17 +76,21 @@ arr4.flat(Infinity);
 **Math.min** returns the lowest-value number.
 _e.g. var array1 = [2, 3, 1]; console.log(Math.min(...array1)); // expected output: 1_
 
-**reduce** executes a reducer function on each element of an array,
+**reduce** executes a reducer function on each element of an array.
 
-reverse,
+**reduceRight** applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value e.g. `const array1 = [[0, 1], [2, 3], [4, 5]].reduceRight(
+  (accumulator, currentValue) => accumulator.concat(currentValue)
+);` returns an array [4, 5, 2, 3, 0, 1]
+
+**reverse** reverses the order of the elements in an array.
 
 **shift** method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
-**slice** returns the part of the array specified, does not change original array,
+**slice** returns the part of the array specified, does not change original array, e.g. `animals.slice(2, 4)` returns 3rd and 4th elements only.
 
-some,
+**some** tests whether at least one element in the array passes a test function, returns a Boolean value.
 
-sort,
+**sort** sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 (16-bit Unicode Transformation Format) code units values.
 
 **splice** - returns removed items in an array, changing the original array
 
@@ -97,12 +107,6 @@ sort,
 **map** method creates a new array with the results of calling a provided function on every element in the calling array,
 
 **match()** method returns the result of matching a string against a regular expression.
-
-regex,
-
-replace,
-
-toLowerCase, toUpperCase
 
 ### Object Methods
 
@@ -128,7 +132,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 1. [General info](#general-info)
 2. [Screenshots](#screenshots)
@@ -139,24 +143,23 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 7. [Inspiration](#inspiration)
 8. [Contact](#contact)
 
-## Technologies
+## :signal_strength: Technologies
 
 [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 [html](https://html.spec.whatwg.org/multipage/)
 [CSS](https://www.w3.org/Style/CSS/)
 [jQuery](https://learn.jquery.com/)
 
-## Setup
+## :floppy_disk: Setup
 
 * cd into individual folders to view html & js/index.js files. Open html file in chrome dev tools and use dev console to enter function variables.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: All projects listed under 'List of Projects' have been checked and are working.
-
 * To-Do: Complete documentation of all projects. Change folder titles to remove spaces.
 
-## Inspiration
+## :clap: Inspiration
 
 * [Stephen Mayeux, Full Stack Developer Youtube Series](https://github.com/stephenmayeux)
 * [Dylan Israel, Youtube Series](http://www.codingtutorials360.com/)
@@ -167,7 +170,7 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 * [Regex Expression Tester](https://regexr.com/)
 * [Mozilla Web Docs - Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## List of Projects/Algorithms with Screenshot
+## :page_with_curl: List of Projects/Algorithms with Screenshot
 
 * Project_Pomodoro
 
@@ -336,6 +339,6 @@ typeof() returns the type of an object, function or variable: i.e. number, strin
 
 ![project_screenshot](./img/Algo_Drop_It.png)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
